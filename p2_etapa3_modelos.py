@@ -93,6 +93,11 @@ print("\n--- RANDOM FOREST ---")
 print(f"Acurácia:  {acc_rf*100:.1f}%")
 print(f"Precisão:  {prec_rf*100:.1f}%")
 print(f"Recall:    {rec_rf*100:.1f}%")
+from sklearn.metrics import roc_auc_score, average_precision_score
+proba_rf = rf.predict_proba(X_teste)[:, 1]
+print(f"ROC-AUC:  {roc_auc_score(y_teste, proba_rf):.3f}")
+print(f"PR-AUC:   {average_precision_score(y_teste, proba_rf):.3f}")
+print(f"Baseline PR-AUC (taxa de atraso): {y_teste.mean():.3f}")
 
 # %% [markdown]
 # ## Gradient Boosting
