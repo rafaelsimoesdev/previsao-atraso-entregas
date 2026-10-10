@@ -8,6 +8,7 @@
 > **Continuação:** este projeto foi revalidado e colocado no ar como API no [Projeto 3 — DeliveryRisk API](https://github.com/rafaelsimoesdev/deliveryrisk-api). Lá, um teste "treinar no passado, prever o futuro" mostrou que a variável `mes_compra`, a mais importante aqui, não generaliza. Veja a seção [Limitação importante](#limitação-importante-o-mês-da-compra).
 
 ![Importância das variáveis no modelo Random Forest](importancia_variaveis.png)
+   *Importância das variáveis na divisão aleatória dos pedidos. O mês da compra não se confirmou ao prever períodos futuros (veja [Limitação importante](#limitação-importante-o-mês-da-compra)).*
 
 ---
 
