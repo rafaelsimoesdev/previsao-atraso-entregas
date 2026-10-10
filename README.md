@@ -5,6 +5,8 @@
 **Período dos dados:** 2016 a 2018  
 **Pergunta:** *Este pedido vai atrasar em relação à data prometida ao cliente?*
 
+![Importância das variáveis no modelo Random Forest](importancia_variaveis.png)
+
 ---
 
 ## Contexto
